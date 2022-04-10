@@ -13,16 +13,18 @@ namespace NumberDecomposition.Domain.Services.Services
     {
         public NumberDTO RetornarDivisores(Number number)
         {
-            int _number = number.Value;
+            NumberDTO numberDTO = new NumberDTO();
 
-            NumberDTO numberDTO = new NumberDTO(_number);
             try
             {
+                if (number.Value <= 0)
+                {
+                    throw new Exception("Número inválido! Informe um número maior que zero.");
+                }
 
-                numberDTO.Dividers = AcharDivisores(_number);
+                numberDTO.Dividers = AcharDivisores(number.Value);
                 numberDTO.PrimeDivisors = AcharDivisoresPrimos(numberDTO.Dividers);
 
-                //return numberDTO;
             }
             catch (Exception ex)
             {
