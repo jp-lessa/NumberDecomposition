@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecomposition.Domain.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecomposition.Application", "NumberDecomposition.Application\NumberDecomposition.Application.csproj", "{1231C4BA-7776-4A55-8CFA-A142A67A94B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{C7CA3106-9F86-4EDC-A842-AFC6B4371C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecomposition.Test", "NumberDecomposition.Test\NumberDecomposition.Test.csproj", "{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{1231C4BA-7776-4A55-8CFA-A142A67A94B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1231C4BA-7776-4A55-8CFA-A142A67A94B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1231C4BA-7776-4A55-8CFA-A142A67A94B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +78,7 @@ Global
 		{5EFBEFC8-6D4E-48BE-A14E-EE258057459D} = {7E6F468F-EAD7-47D5-BB33-7EA020E64175}
 		{BF1C0D17-B4F2-4009-8A34-F237B0DF7103} = {7E6F468F-EAD7-47D5-BB33-7EA020E64175}
 		{1231C4BA-7776-4A55-8CFA-A142A67A94B5} = {1DB7054E-18E4-4155-ABF9-DE534EE44324}
+		{C100D331-9D66-4CE1-9E9D-496C1DDDA7A6} = {C7CA3106-9F86-4EDC-A842-AFC6B4371C00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE45A407-EB8B-4211-AA33-188C317D8BC1}
