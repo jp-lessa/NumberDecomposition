@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NumberDecomposition.Domain.Services\NumberDecomposition.Domain.Services.csproj" />
     <ProjectReference Include="..\NumberDecomposition.Domain\NumberDecomposition.Domain.csproj" />
   </ItemGroup>
 
